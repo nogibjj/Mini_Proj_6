@@ -1,0 +1,11 @@
+customer_id,customer_name,city,signup_date
+1,Alice,New York,2022-01-01
+2,Bob,Los Angeles,2023-02-15
+3,Charlie,New York,2023-03-10
+4,David,Houston,2023-04-25
+5,Evan,Durham,2023-05-30
+6,Frank,Chicago,2023-06-12
+7,Grace,New York,2023-07-19
+8,Helen,Houston,2023-08-23
+9,Ian,Los Angeles,2024-09-01
+10,Julia,Chicago,2023-10-05

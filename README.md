@@ -20,13 +20,11 @@ Xianjing_Huang_Mini_Proj_6/
 │   ├── query.py
 │   └── transform_load.py
 ├── .gitignore
-├── Dockerfile
 ├── main.py
 ├── Makefile
-├── Query_log.md
+├── query_log.md
 ├── README.md
 ├── requirements.txt
-├── setup.sh
 └── test_main.py
 ```
 extract.py: Extract a dataset from a URL like Kaggle or data.gov.
@@ -98,10 +96,10 @@ You can see the result here.
 ### Log of database operations
 Record query in query_log.md.
 
-<img src="/imgs/007.png" alt="0" height="350">
+<img src="/imgs/005.png" alt="0" height="350">
 
 ### Continuous Integration (CI/CD Pipeline)
-Perform query and add SQL log via CI/CD.
+Perform query via CI/CD.
 
 <img src="/imgs/008.png" alt="0" height="350">
 
