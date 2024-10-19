@@ -1,5 +1,5 @@
 # Xianjing_Huang_Mini_Proj_6
-[![CI](https://github.com/nogibjj/Xianjing_Huang_Mini_Proj_5/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Xianjing_Huang_Mini_Proj_5/actions/workflows/cicd.yml)
+[![CI](https://github.com/nogibjj/Mini_Proj_6/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Mini_Proj_6/actions/workflows/ci.yml)
 
 ### Directory Tree Structure
 ```
@@ -101,5 +101,5 @@ Record query in query_log.md.
 ### Continuous Integration (CI/CD Pipeline)
 Perform query via CI/CD.
 
-<img src="/imgs/008.png" alt="0" height="350">
+<img src="/imgs/006.png" alt="0" height="350">
 
