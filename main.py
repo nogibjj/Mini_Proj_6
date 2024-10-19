@@ -7,7 +7,6 @@ from mylib.transform_load import load
 from mylib.query import run_query
 
 
-
 # Extract
 print("Extracting data...")
 extract()
