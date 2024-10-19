@@ -1,0 +1,11 @@
+# devops
+black==22.3.0           ## Python code formatter
+
+pytest==7.4.0           ## test
+pytest-cov==4.0.0       ## produce coverage reports
+pylint==2.15.3          ## static code analyser 
+
+
+# web
+fastapi==0.85.0         ## web framework for building APIs with Python
+uvicorn==0.18.3         ## an ASGI web server implementation for Python
