@@ -19,7 +19,7 @@ container-lint:
 
 refactor: format lint
 
-all: install lint test format
+all: install lint format test
 
 generate_and_push:
 	# Create the markdown file 

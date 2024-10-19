@@ -29,9 +29,9 @@ def test_run_query():
         COUNT(o.order_id) AS total_orders,
         SUM(o.order_amount) AS total_amount
     FROM
-        mini6.xjh_customers c
+        xjh_customers c
     JOIN
-        mini6.xjh_orders o
+        xjh_orders o
     ON
         c.customer_id = o.customer_id
     GROUP BY

@@ -13,18 +13,15 @@ def log(query, result="none"):
         file.write(f"```response from databricks\n{result}\n```\n\n")
 
 
-def run_query(query):
+def run_query(sql_query):
     load_dotenv()
-    server_h = os.getenv("SERVER_HOSTNAME")
-    access_token = os.getenv("ACCESS_TOKEN")
-    http_path = os.getenv("HTTP_PATH")
     with sql.connect(
-        server_hostname=server_h,
-        http_path=http_path,
-        access_token=access_token,
+        server_hostname=os.getenv("SERVER_HOSTNAME"),
+        http_path=os.getenv("HTTP_PATH"),
+        access_token=os.getenv("DATABRICKS_KEY"),
     ) as connection:
         c = connection.cursor()
-        c.execute(query)
+        c.execute(sql_query)
         result = c.fetchall()
     c.close()
-    query(f"{query}", result)
+    log(f"{sql_query}", result)

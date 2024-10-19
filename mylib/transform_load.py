@@ -22,7 +22,6 @@ def load(dataset1="data/customers.csv", dataset2="data/orders.csv"):
         access_token=os.getenv("DATABRICKS_KEY"),
     ) as connection:
         with connection.cursor() as cursor:
-            print("1")
 
             # customer_id, customer_name, city, signup_date
             cursor.execute(
@@ -33,7 +32,7 @@ def load(dataset1="data/customers.csv", dataset2="data/orders.csv"):
                             signup_date DATE);
                 """
             )
-            print("2")
+
             cursor.execute("SELECT * FROM xjh_customers")
             result = cursor.fetchall()
             if not result:

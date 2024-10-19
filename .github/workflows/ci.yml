@@ -22,4 +22,6 @@ jobs:
           DATABRICKS_KEY: ${{ secrets.DATABRICKS_KEY }}
           SERVER_HOSTNAME: ${{ secrets.SERVER_HOSTNAME }}
           HTTP_PATH: ${{ secrets.HTTP_PATH }}
-        run: make test
+        run: make test    
+      - name: generate_and_push
+        run: make generate_and_push

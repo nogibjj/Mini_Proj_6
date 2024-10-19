@@ -66,7 +66,7 @@ cicd.yml: Defines the GitHub Actions workflow for install, lint, format, test, g
    ![3](/imgs/003.png)
 3. Test code `make test`
 
-   ![3](/imgs/003.png)
+   ![4](/imgs/004.png)
 
 
 ### Complex Query
@@ -78,9 +78,9 @@ SELECT
     COUNT(o.order_id) AS total_orders, 
     SUM(o.order_amount) AS total_amount
 FROM 
-    mini6.xjh_customers c
+    xjh_customers c
 JOIN 
-    mini6.xjh_orders o
+    xjh_orders o
 ON 
     c.customer_id = o.customer_id
 GROUP BY 
